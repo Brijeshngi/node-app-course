@@ -39,7 +39,7 @@ import ErrorMiddleware from "./middleware/Error.js";
 app.use("/api/v1", course);
 app.use("/api/v1", user);
 app.use("/api/v1", payment);
-app.use("api/v1", other);
+app.use("/api/v1", other);
 
 export default app;
 
